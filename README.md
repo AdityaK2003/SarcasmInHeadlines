@@ -1,4 +1,4 @@
-# SarcasmInHeadlines (CAIS++ Winter Project)
+# Sarcasm In Headlines (CAIS++ Winter Project)
 By: Aditya Kumar (akumar35@usc.edu)
 
 ## Abstract
@@ -25,15 +25,14 @@ True Negatives: 2940
 
 
 ### Additional Metrics
-'''
               precision    recall  f1-score   support
 
            0       0.79      0.81      0.80      4925
            1       0.76      0.74      0.75      3978
 
-    accuracy                           0.78      8903
-   macro avg       0.78      0.77      0.78      8903
-weighted avg       0.78      0.78      0.78      8903
-'''
+        accuracy                           0.78      8903
+       macro avg       0.78      0.77      0.78      8903 
+    weighted avg       0.78      0.78      0.78      8903
+
 
 AUC: 0.7749131390158562
