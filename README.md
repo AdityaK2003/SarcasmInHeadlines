@@ -15,15 +15,17 @@ A Word2Vec model was used to convert the words into vectors that the LSTM can 'u
 3-Fold Cross Validation was used with a batch size of 2048, and the second fold resulted in the best accuracy metrics. These were the metrics:
 
 ### Confusion Matrix
-[[3993 1038]
- [ 932 2940]]
 True Positives: 3993
+
 False Negatives: 1038
+
 False Positives: 932
+
 True Negatives: 2940
 
 
-## Additional Metrics
+### Additional Metrics
+'''
               precision    recall  f1-score   support
 
            0       0.79      0.81      0.80      4925
@@ -32,6 +34,6 @@ True Negatives: 2940
     accuracy                           0.78      8903
    macro avg       0.78      0.77      0.78      8903
 weighted avg       0.78      0.78      0.78      8903
-
+'''
 
 AUC: 0.7749131390158562
